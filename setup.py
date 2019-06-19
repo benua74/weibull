@@ -3,7 +3,7 @@ import os
 
 # provide correct path for version
 __version__ = None
-here = os.path.dirname(os.path.dirname(__file__))
+here = os.path.dirname(__file__)
 exec(open(os.path.join(here, 'weibull/version.py')).read())
 
 requirements = [
